@@ -10,7 +10,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "ixguard-stubify --logfile $ { BUILD_DIR } /ixguard-clean.log clean&#10;">
+               scriptText = "#ixguard-stubify --logfile $ { BUILD_DIR } /ixguard-clean.log clean&#10;">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
