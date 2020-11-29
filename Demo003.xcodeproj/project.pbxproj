@@ -107,10 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09C384C725732EB000B2B630 /* Build configuration list for PBXNativeTarget "Demo003" */;
 			buildPhases = (
+				09C384DB2573555B00B2B630 /* iXguard Begin */,
 				EF758803C25A8548CC05689F /* [CP] Check Pods Manifest.lock */,
 				09C384AA25732EAD00B2B630 /* Sources */,
 				09C384AB25732EAD00B2B630 /* Frameworks */,
 				09C384AC25732EAD00B2B630 /* Resources */,
+				09C384DC2573556000B2B630 /* iXguard End */,
 			);
 			buildRules = (
 			);
@@ -166,6 +168,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		09C384DB2573555B00B2B630 /* iXguard Begin */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "iXguard Begin";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ixguard-stubify begin\n";
+		};
+		09C384DC2573556000B2B630 /* iXguard End */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "iXguard End";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ixguard-stubify end\n";
+		};
 		EF758803C25A8548CC05689F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
